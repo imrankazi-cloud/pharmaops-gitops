@@ -5,7 +5,7 @@ metadata:
   namespace: argocd
   labels:
     env: dev
-    app: catalog-service
+    app: drug-catalog-service
     managed-by: terraform
   finalizers:
     - resources-finalizer.argocd.argoproj.io
